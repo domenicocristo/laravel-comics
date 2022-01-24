@@ -1,0 +1,24 @@
+#comics-home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 5% 5% 0 5%;
+}
+
+#comics-home h1 {
+    position: absolute;
+    top: -20px;
+    left: 6%;
+    background-color: #0182f9;
+    padding: 10px 20px;
+}
+
+#comics-home li {
+    width: calc(100% / 7);
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}

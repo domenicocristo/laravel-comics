@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height: 60px;
+  margin: 10px 200px 10px 0px;
+}
+
+header li {
+  display: inline-block;
+  margin: 15px;
+}
+
+#jumbotron {
+  height: 300px;
+  background-image: url("/storage/img/jumbotron.jpg");
+  background-size: cover;
+}
+
+#comics-home {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 5% 5% 0 5%;
+}
+
+#comics-home h1 {
+  position: absolute;
+  top: -20px;
+  left: 6%;
+  background-color: #0182f9;
+  padding: 10px 20px;
+}
+
+#comics-home li {
+  width: 14.2857142857%;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#comics-details {
+  height: 500px;
+  margin-top: 50px;
+}
+
+#comics-details h1 {
+  position: absolute;
+  top: 41%;
+  left: 6%;
+  background-color: #0182f9;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+#comics-details img,
+#comics-details p,
+#comics-details a {
+  margin-left: 6%;
+}
+
+footer nav {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  background-image: url(/storage/img/footer-bg.jpg);
+}
+
+footer nav section {
+  display: inline-block;
+  margin: 50px 20px;
+}
+
+footer nav section h3 {
+  color: #fff;
+}
+
+footer nav img {
+  height: 100%;
+  margin-left: 200px;
+}
+
+#social {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #303030;
+}
+
+#social button {
+  height: 50px;
+  display: inline-block;
+  margin-right: 600px;
+  padding: 10px;
+  background-color: #303030;
+  border: none;
+  border: 2px solid #0182f9;
+  color: #fff;
+  cursor: pointer;
+}
+
+#social button:hover {
+  background-color: #0182f9;
+}
+
+#social h4 {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #0082f8;
+}
+
+#social img {
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+

@@ -5,6 +5,6 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
-Route::get('game', function () {
-    return view('pages.game');
-})->name('game');
+Route::get('comic', function () {
+    return view('pages.comic');
+})->name('comic');

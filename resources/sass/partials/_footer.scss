@@ -1,0 +1,52 @@
+footer {
+    nav {
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        background-image: url(/storage/img/footer-bg.jpg);
+        section {
+            display: inline-block;
+            margin: 50px 20px;
+            h3 {
+                color: #fff;
+            }
+        }
+        img {
+            height: 100%;
+            margin-left: 200px;
+        }
+    }
+}
+
+#social {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    button {
+        height: 50px;
+        display: inline-block;
+        margin-right: 600px;
+        padding: 10px;
+        background-color: #303030;
+        border: none;
+        border: 2px solid #0182f9;
+        color: #fff;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0182f9;
+    }
+    h4 {
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 20px;
+        color: #0082f8;
+    }
+    img {
+        height: 30px;
+        margin: 5px;
+        cursor: pointer;
+    }
+}
